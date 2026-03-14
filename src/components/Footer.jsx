@@ -99,18 +99,17 @@ const Footer = () => {
   return (
     <footer className="border-t border-white/10 bg-black/95 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main footer content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16">
           {/* Company Info */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3 group w-fit">
               <img
                 src="https://placehold.co/75"
-                alt="VoltForge Logo"
+                alt="FRE4K Logo"
                 className="w-8 h-8 rounded-lg object-cover"
               />
               <span className="text-2xl font-bold text-primarytext group-hover:text-primarytext transition-colors duration-200">
-                <strong className="text-white">Volt</strong>Forge
+                FRE4K
               </span>
             </Link>
             <p className="text-blue-100">
@@ -119,19 +118,19 @@ const Footer = () => {
             </p>
             <div className="space-y-3">
               <ContactLink href="#" icon={<MapPin className="w-4 h-4" />}>
-                123 Gaming Street, Server City
+                New Delhi, India
               </ContactLink>
               <ContactLink
-                href="mailto:support@voltforge.com"
+                href="mailto:singhyuvr4j06@gmail.com"
                 icon={<Mail className="w-4 h-4" />}
               >
-                support@voltforge.com
+                singhyuvr4j06@gmail.com
               </ContactLink>
               <ContactLink
-                href="tel:+15551234567"
+                href="tel:+919999999999"
                 icon={<Phone className="w-4 h-4" />}
               >
-                +1 (555) 123-4567
+                +91 99999-99999
               </ContactLink>
             </div>
           </div>
@@ -196,10 +195,9 @@ const Footer = () => {
         <div className="border-t border-white/10 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-blue-100">
-              © {new Date().getFullYear()} 26BZ. All rights reserved.
+              © {new Date().getFullYear()} FRE4K. All rights reserved.
             </p>
 
-            {/* Social links */}
             <div className="flex items-center gap-3">
               {socialLinks.map((social) => (
                 <a
