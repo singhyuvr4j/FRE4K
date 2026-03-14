@@ -102,14 +102,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16">
           {/* Company Info */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-3 group w-fit">
+            <Link to="/" className="flex items-center gap-4 group w-fit">
               <img
-                src="https://placehold.co/75"
+                src="https://i.postimg.cc/rmYcDhGK/dcec4edb-410d-4ab2-a4fe-ae3e7e32d8c0.png"
                 alt="FRE4K Logo"
-                className="w-8 h-8 rounded-lg object-cover"
+                className="w-12 h-12 rounded-lg object-cover"
               />
-              <span className="text-2xl font-bold text-primarytext group-hover:text-primarytext transition-colors duration-200">
-                FRE4K
+              <span 
+                className="text-3xl tracking-tighter text-white group-hover:text-white transition-colors duration-200"
+                style={{ fontFamily: "'Zen Dots', sans-serif" }}
+              >
+                FRE<span className="text-[#f59e0b]">4</span>K
               </span>
             </Link>
             <p className="text-blue-100">
